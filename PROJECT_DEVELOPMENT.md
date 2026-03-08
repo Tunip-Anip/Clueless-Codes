@@ -156,7 +156,7 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 * According to "https://www.copyright.org.au/", "https://smartcopying.edu.au/guidelines/copyright-basics/" and "https://creativecommons.org/", I am entitled to 70 years of copyright protection with my program without any registering or signing a form. From this proof for copyrighted aspects would be the project documentation formed from my github which isn't that secure since it is a school project but it will do for the time being. As mentioned before using historical symbols which is public knowledge does not break any copyright laws but listing sources of information is needed for factual/correct information as well as crediting to the sources that researched this information.
 
-
+* MIT lisensce provides restrictions on reuse further protecting copyrighted content.
 ---
 
 
