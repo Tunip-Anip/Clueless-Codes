@@ -47,8 +47,6 @@ The app will inform the user on many common or rare symbol's true meanings and h
 * When the user solves a problem the screen will fade black and turn into another cutscene to bring up the next problem.
 
 * When the user clicks a hint which will be notes hidden around the level a swipe animation of a note will be played as well as the note being displayed on screen.
-
-
     > There will be both peer and self testing, letting someone else play the program and see if they can find any errors or bugs to clear out. Self testing will help get rid of surface level errors as the community is better at finding glitches and bugs than the developer.
 > 
 
@@ -97,7 +95,7 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 <h3> Content Sensitivity</h3>
 
-* As mentioned in the Potential Risks
+* As mentioned in the Potential Risks there will be discourse within given information about religious symbolism and the actual expression of feelings from those groups causing controversy, as previously mentioned ways to combat this would be to list sources of information to create a more informative setting while also allowing the offended groups to access where the information was obtained. This woul help to create less controversy within the program with citing sources and allowing for further informative learning.
 
 <h2> Legal Considerations </h2>
 
@@ -105,9 +103,10 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 <h3> Copyright & Intellectual Property</h3>
 
-
+* Since the book is copyrighted and trademarked under law, this means i need to create a different story with different characters but still using these symbols to create at least a homage to the original books. Since these symbols are historical and under public use there wont be any coipyrighted actions, cease and desists or law suits made at the program, I will also need to change the name of the program to avoid being copyright striked. Since the plot needs to change previous statements of being as close to the book's story will be revoked to avoid legal action. This may be a minor setback but it lets the story follow my ideation instead of Dan Browns.
 
 <h3>Terms of Use</h3>
 
+* According to "https://www.copyright.org.au/", "https://smartcopying.edu.au/guidelines/copyright-basics/" and "https://creativecommons.org/", I am entitled to 70 years of copyrighted protection with my program without any registering or signing a form. From this proof for copyrighted aspects would be the project documentation formed from my github which isn't that secure since it is a school project but it will do for the time being. As mentioned before using historical symbols which is public knowledge does not break any copyright laws but listing sources of information is needed for factual/correct information as well as crediting to the sources that researched this information.
 
-
+---
