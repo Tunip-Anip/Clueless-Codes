@@ -35,9 +35,9 @@ The app will inform the user on many common or rare symbol's true meanings and h
 
 * If players input the wrong answer on a cryptic too many times the cryptic becomes way easier.
 
-~~~
+```
     The user will start off with a home screen resembeling the dial lock of the books cover, where an intro giving context will appear after clicking on the lock and the program will be started following the initial context, the user will get problems to solve which involve cryptic clues, the problems/tasks will be at the top of the page as a task bar to show the to-dos. If the player solves a problem the next one is introduced with further difficulty and with different context.
-~~~
+```
 <h3>Test Cases(Planned)</h3>
 
 * When the user clicks the starting dial lock it will spin to the correct pattern and strt the opening cutscene.
@@ -47,9 +47,9 @@ The app will inform the user on many common or rare symbol's true meanings and h
 * When the user solves a problem the screen will fade black and turn into another cutscene to bring up the next problem.
 
 * When the user clicks a hint which will be notes hidden around the level a swipe animation of a note will be played as well as the note being displayed on screen.
-~~~
+```
     There will be both peer and self testing, letting someone else play the program and see if they can find any errors or bugs to clear out. Self testing will help get rid of surface level errors as the community is better at finding glitches and bugs than the developer.
-~~~
+```
 <h2>Non-Functional Requirements</h2>
 <h3>Performance</h3>
 
