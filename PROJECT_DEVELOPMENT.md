@@ -35,9 +35,9 @@ The app will inform the user on many common or rare symbol's true meanings and h
 
 * If players input the wrong answer on a cryptic too many times the cryptic becomes way easier.
 
----
+~~~
     The user will start off with a home screen resembeling the dial lock of the books cover, where an intro giving context will appear after clicking on the lock and the program will be started following the initial context, the user will get problems to solve which involve cryptic clues, the problems/tasks will be at the top of the page as a task bar to show the to-dos. If the player solves a problem the next one is introduced with further difficulty and with different context.
-
+~~~
 <h3>Test Cases(Planned)</h3>
 
 * When the user clicks the starting dial lock it will spin to the correct pattern and strt the opening cutscene.
@@ -47,19 +47,65 @@ The app will inform the user on many common or rare symbol's true meanings and h
 * When the user solves a problem the screen will fade black and turn into another cutscene to bring up the next problem.
 
 * When the user clicks a hint which will be notes hidden around the level a swipe animation of a note will be played as well as the note being displayed on screen.
----
+~~~
     There will be both peer and self testing, letting someone else play the program and see if they can find any errors or bugs to clear out. Self testing will help get rid of surface level errors as the community is better at finding glitches and bugs than the developer.
+~~~
 <h2>Non-Functional Requirements</h2>
 <h3>Performance</h3>
 
-* Since the program is on the web browser and it is known that browsers usually have varying perferformance a smooth and stable program isn't guarenteed but I will use the uppermost of my ability to create optimised functions with the tools at hand: HTML, CSS and JavaScript. With this it will be important that the changing of scenes and objects should be as quick as possible happening within a few miliseconds or less, as well as clicks registering quickly and expressing if an object has been clicked.
+* Since the program is on the web browser and it is known that browsers usually have varying perferformance a smooth and stable program isn't guarenteed but I will use the uppermost of my ability to create optimised functions with the tools at hand: HTML, CSS and JavaScript. With this it will be important that the changing of scenes and objects should be as quick as possible happening within a few miliseconds or less, as well as clicks registering quickly and expressing if an object has been clicked to help indicate if an action is done. Some examples of failed approaches is the desktops icons, not giving a clear indication when clicked causing many tabs to open with repeated clicking.
 
 <h3>Usability</h3>
 
-* Usability will be promoted with an options menu allowing for the size of text to increase and change as well as using accesible colours to help prevent colourblindness segregation. There might also be a custom font made for readability while also fitting in with the plot of the program.
+* Usability will be promoted with an options menu allowing for the size of text to increase and change as well as using accesible colours to help prevent colourblindness segregation. There might also be a custom font made for readability while also fitting in with the plot of the program allowing users of any ability to both access and effortlessly use the program.
 
 <h3>Reliability</h3>
 
-* The app will be bug free with the numerous amounnt of testing, but I can't promise a port elligible for mobile cooperation as the differences in the screen sizes is too great to accomodate. The program will be tested across many screen sizes with the most common screens being clearly accounted for with 
+* The website will be bug free with the numerous amounnt of testing, but I can't promise a port elligible for mobile cooperation as the differences in the screen sizes is too great to accomodate. The program will be tested across many screen sizes with the most common screens being clearly accounted for; those being 1920*1080 and the rest being scaled versions of the standard HD format. This will help with both relaibility and usability where most people have a laptop for either school or work.
 
 <h3>Security</h3>
+
+* The website will be 100% open source, increasing transparency, with it being a personal project there will be no ads for monetisation, creating trust and safety with the website. The website will also not be coded to mine data because I don't have the ability to code data mining software and even if I did it would still not make its way into the website. The website will also not require a log in as there isnt any data being saved, this may pose a concern as progress is quickly lost but the game wouldnt be that long to create a viable concern for progress containment.
+
+# Social, Ethical and Legal Issues
+
+<h2> Social Impact </h2>
+<h3> Target Audience Consideration</h3>
+
+* The program is created for everyone but has deeper and darker themes so an older aidience is reccomended. The program also has a lot of religous imagery which may offend some groups of people with the history behind symbols. As mentioned before the program will have accesability functions such as changable text size and accesible colours to accomodate people with visual imparities, audio will not be a main focus so people with auditory imparities.
+<h3> Potential Benefits</h3>
+
+* The program will provide a numerous amount of historical information relating to religious imagery and symbolic references allowing the user to learn and expirience factual information in a game setting. This would also help users get accustomed to the book "The Da Vinci Code" and help them relate to the expiriences in the book.
+<h3> Potential Risks</h3>
+
+* With the containment of several religious symbols it addresses a large problem that will affect many heavily religious groups which have specific feelings to these symbols, as explained in the book, the pentacles' meaning was shifted from the profound divinity of femininity to acts of paganism. Where Christian groups may take offence with this meaning and they could feel conflicted with the historical aspects of religion. From this it may misrepresent certain religion and cultural groups causing discourse between the program and these groups. This could be solved by adding a disclaimer, allowing for these groups to create their own thoughts by exclaiming how the information obtained for the program is not based on opinions and is backed by factual sources which will be listed in the background information on the symbols.
+
+
+<h2> Ethical Responsibilites </h2>
+
+
+<h3> User Data & Privacy</h3>
+
+
+The program will not collect data so the leaking of data and the use of data will not be risked when accessing the program. - Saving and loading wont be applicible through this but the length of the program wont inhibit this fact.
+
+<h3>Representation & Inclusion</h3>
+
+Since there is a risk of copyrighted content the characters from the book and the plot will need to be changed to create a fair use program. Aside from this the symbolsw and information from the book will be correctly applied and adapted to fit the program. This is also applicable to the themes in the book which will be fairly adapted by creating a subplot following the themes of the book.
+
+<h3> Content Sensitivity</h3>
+
+* As mentioned in the Potential Risks
+
+<h2> Legal Considerations </h2>
+
+
+
+<h3> Copyright & Intellectual Property</h3>
+
+
+
+<h3>Terms of Use</h3>
+
+
+
