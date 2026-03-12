@@ -11,7 +11,7 @@ The Da Vinci code was written by Dan Brown and is about Robert Langon who is a U
 
 
 <h2>User Experience Type</h2>
-I decided that a web-game would be a fitting choice for the story as I feel that the essence of web-games usually feels historic or nostalgic, capturing the overall tone of the book. This could also enforce techniques to fit into web games with their limited variety with game engines. This would allow the historic feel of the book to be clearly emulated with the unique characterisation and imagery that the,"The Da Vinci Code" outputs.
+I decided that a web-game would be a fitting choice for the story as I feel that the essence of web-games usually feels historic or nostalgic, capturing the overall tone of the book. This could also enforce techniques to fit into web games with their limited variety with game engines. This would allow the historic feel of the book to be clearly emulated with the unique characterisation and imagery that the,"The Da Vinci Code" outputs. It will also contain the use of art websites an apps like krita or piskel to make the art for the program.
  
 <h2>Target Market</h2>
 I will state that the target market and audience of this program will be people with older and deeper understanding of symbols or anyone who would want to learn what the relevant figures represent. This is because the lack of understanding of techniques and cryptics would cause the program to feel unappealing to certain audiences, similar to the way many people find math videos on the internet boring but some may find them interesting while when used by the target audience it would help them learn and put together the puzzles included.
@@ -159,4 +159,7 @@ Since there is a risk of copyrighted content the characters from the book and th
 * MIT lisensce provides restrictions on reuse further protecting copyrighted content.
 ---
 
+# Researching & Planning
 
+## Gantt Chart
+<img src="" alt="Gantt Chart">
