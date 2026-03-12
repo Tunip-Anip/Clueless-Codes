@@ -162,4 +162,4 @@ Since there is a risk of copyrighted content the characters from the book and th
 # Researching & Planning
 
 ## Gantt Chart
-<img src="" alt="Gantt Chart">
+<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/Gantt%20Chart.png" alt="Gantt Chart">
