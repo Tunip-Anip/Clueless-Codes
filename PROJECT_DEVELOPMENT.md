@@ -35,16 +35,16 @@ The app will inform the user of many common or rare symbol's true meanings and h
 <h3>Use Cases</h3>
 
 
-* User will have to input answers to cryptic clues to continue further in the game
+* a. User will have to input answers to cryptic clues to continue further in the game
 
 
-* Users can click symbols or items to learn their backstory or give information to provide an answer for a riddle of passage.
+* b. Users can click symbols or items to learn their backstory or give information to provide an answer for a riddle of passage.
 
 
-* Players can use hints scattered around the level to help solve cryptics.
+* c. Players can use hints scattered around the level to help solve cryptics.
 
 
-* If players input the wrong answer on a cryptic too many times the cryptic becomes way easier.
+* d. If players input the wrong answer on a cryptic too many times the cryptic becomes way easier.
 
 
     > The user will start off with a home screen resembling the dial lock of the book's cover, where an intro giving context will appear after clicking on the lock and the program will be started following the initial context, the user will get problems to solve which involve cryptic clues, the problems/tasks will be at the top of the page as a task bar to show the to-dos. If the player solves a problem the next one is introduced with further difficulty and with different context.
@@ -54,16 +54,17 @@ The app will inform the user of many common or rare symbol's true meanings and h
 <h3>Test Cases(Planned)</h3>
 
 
-* When the user clicks the starting dial lock it will spin to the correct pattern and start the opening cutscene.
+* a. Peer test, let peer examine the question/cryptic and observe if the ui is intuitive enough for them to actually type in the text box and test if the event can carry both valid and invalid data to proceed into the correct and subsequent event.
 
 
-* If the user clicks on a symbol it will pull up a tab with the symbol and information on it.
+* b. Peer test, lets them acces the program and see whether the ui would actually lead them to hover over and click symbols, and check if the symbols when clicked takes them to the correct screen.
 
 
-* When the user solves a problem the screen will fade black and turn into another cutscene to bring up the next problem.
+* c. Self test, click on notes to observe if the text pops up on the screen and evaluate if the notes are visible enough to be noticed but still be hidden.
 
 
-* When the user clicks a hint which will be notes hidden around the level a swipe animation of a note will be played as well as the note being displayed on screen.
+* d. Peer testing, let the peer solve a cryptic with no background information and observe if the program switches the question to make it easier, this would also need a transition as the text changing on the screen would be too sudden and noticable, something like "I should check on this later" would be a smooth transition.
+
     > There will be both peer and self testing, letting someone else play the program and see if they can find any errors or bugs to clear out. Self testing will help get rid of surface level errors as the community is better at finding glitches and bugs than the developer.
 >
 
