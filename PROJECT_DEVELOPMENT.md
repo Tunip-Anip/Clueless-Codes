@@ -263,3 +263,10 @@ Since there is a risk of copyrighted content the characters from the book and th
 ## Gantt Chart
 <img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/Gantt%20Chart.png" alt="Gantt Chart">
 
+## PMI Table
+
+
+<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/PMI_Header.png" alt="PMI HEADERS">
+<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/PMI_Inventory.png" alt="PMI INVENTORY">
+<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/PMI_Arrow.png" alt="PMI ARROWS">
+<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/PMI_SearchBar.png" alt="PMI SEARCH BAR">
