@@ -33,7 +33,7 @@ I will state that the target market and audience of this program will be people 
 
 
 
-<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/Mindmap.png?raw=true" alt="MindMap">
+<img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/Mindmap.png?raw=true" alt="MindMap">
 
 
 
@@ -261,12 +261,12 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 
 ## Gantt Chart
-<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/Gantt%20Chart.png" alt="Gantt Chart">
+<img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/Gantt%20Chart.png" alt="Gantt Chart">
 
 ## PMI Table
 
 
-<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/PMI_Header.png" alt="PMI HEADERS">
-<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/PMI_Inventory.png" alt="PMI INVENTORY">
-<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/PMI_Arrow.png" alt="PMI ARROWS">
-<img src="https://github.com/Tunip-Anip/The-Da-Vinci-Code/blob/main/Images/PMI_SearchBar.png" alt="PMI SEARCH BAR">
+<img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/PMI_Header.png" alt="PMI HEADERS">
+<img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/PMI_Inventory.png" alt="PMI INVENTORY">
+<img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/PMI_Arrow.png" alt="PMI ARROWS">
+<img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/PMI_SearchBar.png" alt="PMI SEARCH BAR">
