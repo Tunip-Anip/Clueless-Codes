@@ -4,5 +4,6 @@ body {
 
 .Title_Card {
   text-align: center ;
-  padding: 512px;
+  padding: 400px;
+  position: static;
 }
