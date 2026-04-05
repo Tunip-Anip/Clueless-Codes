@@ -271,3 +271,55 @@ Since there is a risk of copyrighted content the characters from the book and th
 <img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/PMI_Arrow.png" alt="PMI ARROWS">
 <img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/PMI_SearchBar.png" alt="PMI SEARCH BAR">
 <img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/PMI_Software.png" alt="PMI SOFTWARE">
+
+## Wireframe Feedback
+
+### Access Wireframe feedback + Wireframes
+https://docs.google.com/document/d/14vpGy_n6LEnB5ww9zXUxfQX5K9pMuNQsDvNFXerugMo/edit?usp=sharing
+
+---
+# Prototyping
+### Week 9 + 10 -> Term 1 AKA Sprint 1
+In these weeks I created the html and css file as well as the javascript file. Not much was done with css but on javascript and html I created the title card and tried to create an interactive button which changes appearance when clicked. I also created a title for the webpage and an icon for the search bar.
+#### HTML
+
+```
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+
+
+    <title>Clueless Codes</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+~
+~
+~
+ <h1 class = "Title_Card" >Clueless Codes</h1>
+        <div class="center-screen" >
+      <button>
+         <img alt="" src="CodexStill.png" 
+        style="height: 85px; width: 198px" id="Codex-btn" onclick="changeImage()"
+        />
+      </button>
+    </div>
+```
+
+#### JS
+
+```
+function changeImage() {
+    if (document.getElementById("Codex-btn").src == "CodexStill.png"){
+        document.getElementById("Codex-btn").src = "Codex.gif";
+
+    }
+}
+```
+
+So far i need to get the image in the centre and fix the button aspect of it. But the aesthetics are pleasing and are good so far.
+---
