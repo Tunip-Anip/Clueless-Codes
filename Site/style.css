@@ -3,7 +3,21 @@ body {
 }
 
 .Title_Card {
-  text-align: center ;
-  padding: 400px;
-  position: static;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-135%, -90%);
+  font-size: 4vw;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+}
+
+.CodexBtnGroup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-15%, -38%);
+  background-color: transparent; 
+  border-color: transparent;
+  color:transparent;
 }
