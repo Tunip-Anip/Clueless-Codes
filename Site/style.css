@@ -21,3 +21,10 @@ body {
   border-color: transparent;
   color:transparent;
 }
+
+.Menu {
+  position: fixed; 
+  background-color: transparent; 
+  border-color: transparent;
+  color:transparent;
+}
