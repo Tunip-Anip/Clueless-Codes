@@ -28,3 +28,19 @@ body {
   border-color: transparent;
   color:transparent;
 }
+
+.csymbol {
+  position: fixed; 
+  background-color: transparent; 
+  border-color: transparent;
+  color:transparent;
+  transform: translate(35%, 6%);
+}
+
+.Info{
+  position: fixed; 
+  background-color: transparent; 
+  border-color: transparent;
+  color:transparent;
+  transform: translate(35%, 6%);
+}

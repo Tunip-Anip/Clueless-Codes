@@ -35,8 +35,12 @@ function stopgif(){
 function newPopup(url,symbol) {
     
 	popupWindow = window.open(
-    url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
-    document.getElementById("changesymbol").src = "Pentacle.png";
+    url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+    popupWindow.resizeTo(1129,700)
+    if(symbol=='Pentacle'){
+        document.getElementById("changesymbol").src = "Pentacle.png";
+        document.getElementById("p1").innerHTML = "New text!";
+    }
     
 }   
 
