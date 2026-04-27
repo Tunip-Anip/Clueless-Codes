@@ -38,9 +38,18 @@ body {
 }
 
 .Info{
-  position: fixed; 
-  background-color: transparent; 
-  border-color: transparent;
-  color:transparent;
-  transform: translate(35%, 6%);
+  font-family: customFont;
+  font-size: 34.6px;
+  position:fixed;
+  top: 13%;
+  left: 55%;
+  text-align: left;
+  margin-right: 44px;
+  text-shadow: 3px 3px rgb(114, 76, 0);
+  color: aliceblue;
+}
+
+@font-face {
+  font-family: customfont;
+  src: url(CustomFont.ttf);
 }

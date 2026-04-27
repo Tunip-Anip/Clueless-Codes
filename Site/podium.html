@@ -32,15 +32,10 @@ body {
     
 }
 </style>
-  <body>
+  <body onload="changeSymbol()">
     <img id="changesymbol" class="csymbol" src="CodexFreeze.png" alt=""
      style="height: auto; width: 30vw">
-    <p id="p1" class="Info">Hi</p>
-    <script>
-      document.getElementById("changesymbol").src = "Pentacle.png";
-      document.getElementById("p1").innerHTML = "New text!";
-      
-    </script>
+    <p id="Info" class="Info" onload="changeSymbol()" >Hi</p>
      
   </body>
 </html>
