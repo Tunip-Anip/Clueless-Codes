@@ -39,12 +39,56 @@ body {
 
 .Info{
   font-family: customFont;
-  font-size: 34.6px;
+  font-size: 2vw;
   position:fixed;
   top: 13%;
   left: 55%;
   text-align: left;
   margin-right: 44px;
+  text-shadow: 3px 3px rgb(114, 76, 0);
+  color: aliceblue;
+}
+
+
+.Ttl{
+  font-family: customFont;
+  font-size: 6vw;
+  position:fixed;
+  top: -8.5%;
+  left: 55%;
+  text-align: left;
+  margin-right: 44px;
+  text-shadow: 3px 3px rgb(114, 76, 0);
+  color: aliceblue;
+}
+
+
+.Date{
+  font-family: customFont;
+  font-size: 2vw;
+  position:fixed;
+  left: 22%;
+  bottom: 12%;
+  text-shadow: 3px 3px rgb(114, 76, 0);
+  color: aliceblue;
+}
+
+.Area{
+  font-family: customFont;
+  font-size: 2vw;
+  position:fixed;
+  left: 22%;
+  bottom: 9%;
+  text-shadow: 3px 3px rgb(114, 76, 0);
+  color: aliceblue;
+}
+
+.Group{
+  font-family: customFont;
+  font-size: 2vw;
+  position:fixed;
+  left: 22%;
+  bottom: 6%;
   text-shadow: 3px 3px rgb(114, 76, 0);
   color: aliceblue;
 }

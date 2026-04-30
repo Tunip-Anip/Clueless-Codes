@@ -35,7 +35,7 @@ function stopgif(){
 
 function newPopup(url,symbol) {
     
-    let symbolc = symbol
+    symbolc = symbol
     console.log(symbolc)
 	popupWindow = window.open(
     url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
@@ -44,9 +44,10 @@ function newPopup(url,symbol) {
 
 function changeSymbol() {
     console.log(symbolc)
-    if(symbolc=='Pentacle'){
+    if(symbolc==''){
         document.getElementById("changesymbol").src = "Pentacle.png";
         document.getElementById("Info").innerHTML = Pentacle.info;
+        document.getElementById("Ttl").innerHTML = Pentacle.Name;
     }
 }
 
