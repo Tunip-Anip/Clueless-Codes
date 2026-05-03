@@ -280,7 +280,7 @@ https://docs.google.com/document/d/14vpGy_n6LEnB5ww9zXUxfQX5K9pMuNQsDvNFXerugMo/
 ---
 # Prototyping
 ### Week 9 + 10 -> Term 1 AKA Sprint 1
-In these weeks I created the html and css file as well as the javascript file. Not much was done with css but on javascript and html I created the title card and tried to create an interactive button which changes appearance when clicked. I also created a title for the webpage and an icon for the search bar.
+In these weeks I created the html and css file as well as the javascript file. Not much was done with css but on javascript and html I created the title card and tried to create an interactive button which changes appearance when clicked. I also created a title for the webpage and made the begginings of the symbol info.
 #### HTML
 
 ```
@@ -322,4 +322,49 @@ function changeImage() {
 ```
 
 So far i need to get the image in the centre and fix the button aspect of it. But the aesthetics are pleasing and are good so far.
+---
+
+### Week 1 + 2 AKA sprint 2
+In these weeks it was the final rehearsals of the Beauty and the Beast Musical so not much work was done through these weeks. Some of the actual work done would be fixing the image/information switcher on podium.html and also making the sprites for the rest of the symbols. Also the Title screen was fixed as well as adding a new page mechanic. I also added the descriptors for the symbols.
+
+```
+
+    <<body onload="changeSymbol()">
+    <img id="changesymbol" class="csymbol" src="CodexFreeze.png" alt=""
+     style="height: auto; width: 30vw">
+    <p id="Ttl" class="Ttl" onload="changeSymbol()" >Bye</p>
+    <p id="Info" class="Info" onload="changeSymbol()" >Hi</p>
+    <p id="Date" class="Date" onload="changeSymbol()" >Date</p>
+    <p id="Area" class="Area" onload="changeSymbol()" >Area</p>
+    <p id="Group" class="Group" onload="changeSymbol()" >Group</p>
+  </body>
+
+```
+This is added content not the actual page
+#### JS
+
+```
+function newPopup(url,symbol) {
+    
+    symbolc = symbol
+    console.log(symbolc)
+	popupWindow = window.open(
+    url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+    popupWindow.resizeTo(1129,700)
+}   
+
+function changeSymbol() {
+    console.log(symbolc)
+    if(symbolc==''){
+        document.getElementById("changesymbol").src = "Pentacle.png";
+        document.getElementById("Info").innerHTML = Pentacle.info;
+        document.getElementById("Ttl").innerHTML = Pentacle.Name;
+        document.getElementById("Date").innerHTML = Pentacle.OriginDate;
+        document.getElementById("Area").innerHTML = Pentacle.OriginPlace;
+        document.getElementById("Group").innerHTML = Pentacle.ReligousGroup;
+    }
+}
+```
+
+I need to fix the info swapper as a global variable doesnt change when recalled in a functaion. This means that |if symbolc==''| was meant to say |if symbolc=='Pentacle'| but since the global variable was declared as empty in the start of the script it doesnt change when I call newpop(url,symbol): symbolc = symboll.
 ---

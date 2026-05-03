@@ -48,6 +48,9 @@ function changeSymbol() {
         document.getElementById("changesymbol").src = "Pentacle.png";
         document.getElementById("Info").innerHTML = Pentacle.info;
         document.getElementById("Ttl").innerHTML = Pentacle.Name;
+        document.getElementById("Date").innerHTML = Pentacle.OriginDate;
+        document.getElementById("Area").innerHTML = Pentacle.OriginPlace;
+        document.getElementById("Group").innerHTML = Pentacle.ReligousGroup;
     }
 }
 
