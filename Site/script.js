@@ -10,6 +10,33 @@ const Pentacle = {
   image: "Pentacle.png"
 };
 
+const Fib = {
+  Name: "Fibonacci Sequence",
+  info: "The Pentacle; a five pronged star enclosed in a circle was a heavily appreciated symbol around ancient human history, through multiple religions it has been claimed to symbolise many different things such as the five elements: Wood, Fire, Water, Earth and Metal in Daoism which was a philosophical Chinese point of view, in other cultures it is said to represent the five human senses, but most of them converge to symbols of love, life and beauty, following goddess rituals envoking and reestablishing the natural Femininity of the world. Its history ties in well with the pentagram whereas in the renaissance Heinrich Cornelius Agrippa and others portrayed its power to be a symbol for magic. From this it was also used as a source of protection from evil forces, but its meaning as well as the pentagram have been shifted from the protective and earthly symbol that it was to a more demonic and devilish symbol brought upon by occult practices by Judeo-Christian beliefs, where they used the pentacle and pentagram to support their practices which the Christian church would spell heresy.",
+  OriginDate: "100 BCE - 350 CE",
+  OriginPlace: "India",
+  ReligousGroup: "Mathematics",
+  image: "Fib.png"
+};
+
+const Golden_Ratio = {
+  Name: "Golden Ratio",
+  info: "The Pentacle; a five pronged star enclosed in a circle was a heavily appreciated symbol around ancient human history, through multiple religions it has been claimed to symbolise many different things such as the five elements: Wood, Fire, Water, Earth and Metal in Daoism which was a philosophical Chinese point of view, in other cultures it is said to represent the five human senses, but most of them converge to symbols of love, life and beauty, following goddess rituals envoking and reestablishing the natural Femininity of the world. Its history ties in well with the pentagram whereas in the renaissance Heinrich Cornelius Agrippa and others portrayed its power to be a symbol for magic. From this it was also used as a source of protection from evil forces, but its meaning as well as the pentagram have been shifted from the protective and earthly symbol that it was to a more demonic and devilish symbol brought upon by occult practices by Judeo-Christian beliefs, where they used the pentacle and pentagram to support their practices which the Christian church would spell heresy.",
+  OriginDate: "500 - 300 BCE",
+  OriginPlace: "Ancient Greece",
+  ReligousGroup: "Science",
+  image: "gRatio.png"
+};
+
+const Hindu_Swastika = {
+  Name: "Hindu Swastika",
+  info: "The Pentacle; a five pronged star enclosed in a circle was a heavily appreciated symbol around ancient human history, through multiple religions it has been claimed to symbolise many different things such as the five elements: Wood, Fire, Water, Earth and Metal in Daoism which was a philosophical Chinese point of view, in other cultures it is said to represent the five human senses, but most of them converge to symbols of love, life and beauty, following goddess rituals envoking and reestablishing the natural Femininity of the world. Its history ties in well with the pentagram whereas in the renaissance Heinrich Cornelius Agrippa and others portrayed its power to be a symbol for magic. From this it was also used as a source of protection from evil forces, but its meaning as well as the pentagram have been shifted from the protective and earthly symbol that it was to a more demonic and devilish symbol brought upon by occult practices by Judeo-Christian beliefs, where they used the pentacle and pentagram to support their practices which the Christian church would spell heresy.",
+  OriginDate: "10,000 to 17,000 BCE and 3000 BCE",
+  OriginPlace: "Indus Valley",
+  ReligousGroup: "Polytheism",
+  image: "Hindus.png"
+};
+
 function next(){
       document.location.href = pages[0];
     }
