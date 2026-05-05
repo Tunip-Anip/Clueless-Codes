@@ -1,6 +1,6 @@
 var pages = ["gamescreen.html","",]
 var symbols = ["Pentacle","Fib","Golden_Ratio","Hindu_Swastika"]
-let symbolc = "";
+
 const Pentacle = {
   Name: "Pentacle",
   info: "The Pentacle; a five pronged star enclosed in a circle was a heavily appreciated symbol around ancient human history, through multiple religions it has been claimed to symbolise many different things such as the five elements: Wood, Fire, Water, Earth and Metal in Daoism which was a philosophical Chinese point of view, in other cultures it is said to represent the five human senses, but most of them converge to symbols of love, life and beauty, following goddess rituals envoking and reestablishing the natural Femininity of the world. Its history ties in well with the pentagram whereas in the renaissance Heinrich Cornelius Agrippa and others portrayed its power to be a symbol for magic. From this it was also used as a source of protection from evil forces, but its meaning as well as the pentagram have been shifted from the protective and earthly symbol that it was to a more demonic and devilish symbol brought upon by occult practices by Judeo-Christian beliefs, where they used the pentacle and pentagram to support their practices which the Christian church would spell heresy.",
@@ -60,23 +60,24 @@ function stopgif(){
     
 }
 
-function newPopup(url,symbol) {
+function newPopup(url) {
     
-    symbolc = symbol
-    console.log(symbolc)
+    
+    
 	popupWindow = window.open(
     url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
     popupWindow.resizeTo(1129,700)
 
     
     
+    
 }   
 
 
 
-function changeSymbol(symbo) {
+function changeSymbol(symbolc) {
     console.log(symbolc)
-    if(symbolc==''){
+    if(symbolc=='Pentacle'){
         document.getElementById("changesymbol").src = Pentacle.image;
         document.getElementById("Info").innerHTML = Pentacle.info;
         document.getElementById("Ttl").innerHTML = Pentacle.Name;
@@ -84,7 +85,7 @@ function changeSymbol(symbo) {
         document.getElementById("Area").innerHTML = Pentacle.OriginPlace;
         document.getElementById("Group").innerHTML = Pentacle.ReligousGroup;
     }
-    if(symbolc==''){
+    if(symbolc=='Fib'){
         document.getElementById("changesymbol").src = Fib.image;
         document.getElementById("Info").innerHTML = Fib.info;
         document.getElementById("Ttl").innerHTML = Fib.Name;
@@ -92,7 +93,7 @@ function changeSymbol(symbo) {
         document.getElementById("Area").innerHTML = Fib.OriginPlace;
         document.getElementById("Group").innerHTML = Fib.ReligousGroup;
     }
-    if(symbolc==''){
+    if(symbolc=='GR'){
         document.getElementById("changesymbol").src = Golden_Ratio.image;
         document.getElementById("Info").innerHTML = Golden_Ratio.info;
         document.getElementById("Ttl").innerHTML = Golden_Ratio.Name;
@@ -100,7 +101,7 @@ function changeSymbol(symbo) {
         document.getElementById("Area").innerHTML = Golden_Ratio.OriginPlace;
         document.getElementById("Group").innerHTML = Golden_Ratio.ReligousGroup;
     }
-    if(symbolc==''){
+    if(symbolc=='HS'){
         document.getElementById("changesymbol").src = Hindu_Swastika.image;
         document.getElementById("Info").innerHTML = Hindu_Swastika.info;
         document.getElementById("Ttl").innerHTML = Hindu_Swastika.Name;

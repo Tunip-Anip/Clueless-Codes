@@ -26,13 +26,31 @@
 
     </div>
 
-    <button onclick="newPopup('podium.html','Pentacle')">
-      <script>sessionStorage.setItem("symb", "Pentacle");
-</script>
+    
+
+
+  
+    </button>
+    <button id="Pent" onclick="fixerup()">
+      <script>function fixerup(){
+        console.log("PWEASE")
+      newPopup('podium.html','Pentacle')
+      sessionStorage.setItem("symb", "Pentacle")};
+      </script>
          <img alt="" src="Pentacle.png" 
         style="height: auto; width: 30vw" />
 
+    
     </button>
-    <p id="p1">ffff</p>
+    <button id="Fib" onclick="fixerup()">
+      <script>function fixerup(){
+      newPopup('podium.html','f')
+      sessionStorage.setItem("symb", "Fib")};
+      sessionStorage.clear()
+      </script>
+         <img alt="" src="Fib.png" 
+        style="height: auto; width: 30vw" />
+
+    </button>
   </body>
 </html>

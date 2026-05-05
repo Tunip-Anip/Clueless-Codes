@@ -372,45 +372,50 @@ I need to fix the info swapper as a global variable doesnt change when recalled 
 
 ### Week 3
 In this week I added the text for the fibonacci sequence. I also got help from Siddhant Bhale to help make the podium features change when the tab opens. I got the base swapping things out part pretty quickly but knowing things it needs to swap into was very tricky, I tried to create a variable i nthe newpopup function to carry through to the changesymbol function but since it's a new page it wouldnt carry through.
+
+### HTML on gamescreen.html
 ```
 
-    <<body onload="changeSymbol()">
-    <img id="changesymbol" class="csymbol" src="CodexFreeze.png" alt=""
-     style="height: auto; width: 30vw">
-    <p id="Ttl" class="Ttl" onload="changeSymbol()" >Bye</p>
-    <p id="Info" class="Info" onload="changeSymbol()" >Hi</p>
-    <p id="Date" class="Date" onload="changeSymbol()" >Date</p>
-    <p id="Area" class="Area" onload="changeSymbol()" >Area</p>
-    <p id="Group" class="Group" onload="changeSymbol()" >Group</p>
-  </body>
+    </button>
+    <button id="Pent" onclick="fixerup()">
+      <script>function fixerup(){
+        console.log("PWEASE")
+      newPopup('podium.html','Pentacle')
+      sessionStorage.setItem("symb", "Pentacle")};
+      </script>
+         <img alt="" src="Pentacle.png" 
+        style="height: auto; width: 30vw" />
+
+    
+    </button>
+    <button id="Fib" onclick="fixerup()">
+      <script>function fixerup(){
+      newPopup('podium.html','f')
+      sessionStorage.setItem("symb", "Fib")};
+      sessionStorage.clear()
+      </script>
+         <img alt="" src="Fib.png" 
+        style="height: auto; width: 30vw" />
 
 ```
 This is added content not the actual page
-#### JS
+#### HTML on Podium.html
 
 ```
-function newPopup(url,symbol) {
-    
-    symbolc = symbol
-    console.log(symbolc)
-	popupWindow = window.open(
-    url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
-    popupWindow.resizeTo(1129,700)
-}   
-
-function changeSymbol() {
-    console.log(symbolc)
-    if(symbolc==''){
-        document.getElementById("changesymbol").src = "Pentacle.png";
-        document.getElementById("Info").innerHTML = Pentacle.info;
-        document.getElementById("Ttl").innerHTML = Pentacle.Name;
-        document.getElementById("Date").innerHTML = Pentacle.OriginDate;
-        document.getElementById("Area").innerHTML = Pentacle.OriginPlace;
-        document.getElementById("Group").innerHTML = Pentacle.ReligousGroup;
-    }
-}
+<script>let sym = sessionStorage.getItem("symb");</script>
+  <body onload="changeSymbol(sym)">
+    <img id="changesymbol" class="csymbol" src="CodexFreeze.png" alt=""
+     style="height: auto; width: 30vw">
+    <p id="Ttl" class="Ttl" onload="changeSymbol(sym)" >Bye</p>
+    <p id="Info" class="Info" onload="changeSymbol(sym)" >Hi</p>
+    <p id="Date" class="Date" onload="changeSymbol(sym)" >Date</p>
+    <p id="Area" class="Area" onload="changeSymbol(sym)" >Area</p>
+    <p id="Group" class="Group" onload="changeSymbol(sym)" >Group</p>
+  </body>
 ```
 
-I need to fix the info swapper as a global variable doesnt change when recalled in a functaion. This means that |if symbolc==''| was meant to say |if symbolc=='Pentacle'| but since the global variable was declared as empty in the start of the script it doesnt change when I call newpop(url,symbol): symbolc = symboll.
+I need to fix the info swapper as a global variable doesnt change when recalled in a functaion. This means that |if symbolc==''| was meant to say |if symbolc=='Pentacle'| but since the global variable was declared as empty in the start of the script it doesnt change when I call newpop(url,symbol): symbolc = symbol. AFTER MUCH HELP FROM SIDD It was discovered that I was missing a "return symbolc" which is actually outputted the updated variable.But actually it turns out the using symbolc was very innefficient so just using session storage worked with helping my store the variables: The script was done in the html for increased visibility.
+
+Now a new bug has arised, whenever clicking on each button the button redirects to whatever the furthest down button is, i suspect it is due to the furthest down button having its "script" allways running somehow, even after I add a onclick event but it still needs to be fixed.
 ---
 
