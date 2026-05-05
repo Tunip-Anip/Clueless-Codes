@@ -368,3 +368,49 @@ function changeSymbol() {
 
 I need to fix the info swapper as a global variable doesnt change when recalled in a functaion. This means that |if symbolc==''| was meant to say |if symbolc=='Pentacle'| but since the global variable was declared as empty in the start of the script it doesnt change when I call newpop(url,symbol): symbolc = symboll.
 ---
+
+
+### Week 3
+In this week I added the text for the fibonacci sequence. I also got help from Siddhant Bhale to help make the podium features change when the tab opens. I got the base swapping things out part pretty quickly but knowing things it needs to swap into was very tricky, I tried to create a variable i nthe newpopup function to carry through to the changesymbol function but since it's a new page it wouldnt carry through.
+```
+
+    <<body onload="changeSymbol()">
+    <img id="changesymbol" class="csymbol" src="CodexFreeze.png" alt=""
+     style="height: auto; width: 30vw">
+    <p id="Ttl" class="Ttl" onload="changeSymbol()" >Bye</p>
+    <p id="Info" class="Info" onload="changeSymbol()" >Hi</p>
+    <p id="Date" class="Date" onload="changeSymbol()" >Date</p>
+    <p id="Area" class="Area" onload="changeSymbol()" >Area</p>
+    <p id="Group" class="Group" onload="changeSymbol()" >Group</p>
+  </body>
+
+```
+This is added content not the actual page
+#### JS
+
+```
+function newPopup(url,symbol) {
+    
+    symbolc = symbol
+    console.log(symbolc)
+	popupWindow = window.open(
+    url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+    popupWindow.resizeTo(1129,700)
+}   
+
+function changeSymbol() {
+    console.log(symbolc)
+    if(symbolc==''){
+        document.getElementById("changesymbol").src = "Pentacle.png";
+        document.getElementById("Info").innerHTML = Pentacle.info;
+        document.getElementById("Ttl").innerHTML = Pentacle.Name;
+        document.getElementById("Date").innerHTML = Pentacle.OriginDate;
+        document.getElementById("Area").innerHTML = Pentacle.OriginPlace;
+        document.getElementById("Group").innerHTML = Pentacle.ReligousGroup;
+    }
+}
+```
+
+I need to fix the info swapper as a global variable doesnt change when recalled in a functaion. This means that |if symbolc==''| was meant to say |if symbolc=='Pentacle'| but since the global variable was declared as empty in the start of the script it doesnt change when I call newpop(url,symbol): symbolc = symboll.
+---
+
