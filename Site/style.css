@@ -39,7 +39,7 @@ body {
 
 .Info{
   font-family: customFont;
-  font-size: 2vw;
+  font-size: 2.07vw;
   position:fixed;
   top: 13%;
   left: 55%;
@@ -71,6 +71,7 @@ body {
   bottom: 12%;
   text-shadow: 3px 3px rgb(114, 76, 0);
   color: aliceblue;
+  margin-right: 1000px;
 }
 
 .Area{
