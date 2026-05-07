@@ -65,18 +65,18 @@ body {
 
 .Date{
   font-family: customFont;
-  font-size: 2vw;
+  font-size: 1.8vw;
   position:fixed;
   left: 21.2%;
   bottom: 12%;
   text-shadow: 3px 3px rgb(114, 76, 0);
   color: aliceblue;
-  margin-right: 1000px;
+  margin-right: 700px;
 }
 
 .Area{
   font-family: customFont;
-  font-size: 2vw;
+  font-size: 1.8vw;
   position:fixed;
   left: 21.2%;
   bottom: 9%;
@@ -86,7 +86,7 @@ body {
 
 .Group{
   font-family: customFont;
-  font-size: 2vw;
+  font-size: 1.8vw;
   position:fixed;
   left: 21.2%;
   bottom: 6%;

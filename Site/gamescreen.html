@@ -31,26 +31,71 @@
 
   
     </button>
-    <button id="Pent" onclick="fixerup()">
-      <script>function fixerup(){
-        console.log("PWEASE")
-      newPopup('podium.html','Pentacle')
-      sessionStorage.setItem("symb", "Pentacle")};
+    <button id="Pent" onclick="fixerupP()" >
+      <script>
+        
+      function fixerupP(){
+      sessionStorage.clear()
+      sessionStorage.setItem("symb", "Pentacle")
+      newPopup('podium.html');
+      sessionStorage.clear()
+
+      }
       </script>
          <img alt="" src="Pentacle.png" 
-        style="height: auto; width: 30vw" />
-
-    
+        style="height: auto; width: 5vw" />
     </button>
-    <button id="Fib" onclick="fixerup()">
-      <script>function fixerup(){
-      newPopup('podium.html','f')
-      sessionStorage.setItem("symb", "Fib")};
+
+    <button id="Fib" onclick="fixerupF()">
+      <script>
+      
+      function fixerupF(){
       sessionStorage.clear()
+      sessionStorage.setItem("symb", "Fib");
+      newPopup('podium.html')
+      sessionStorage.clear()
+      
+
+    }
       </script>
          <img alt="" src="Fib.png" 
-        style="height: auto; width: 30vw" />
+        style="height: auto; width: 5vw" />
 
     </button>
+
+    <button id="GR" onclick="fixerupG()">
+      <script>
+      
+      function fixerupG(){
+      sessionStorage.clear()
+      sessionStorage.setItem("symb", "GR");
+      newPopup('podium.html')
+      sessionStorage.clear()
+      
+
+    }
+      </script>
+         <img alt="" src="gRatio.png" 
+        style="height: auto; width: 5vw" />
+
+    </button>
+
+    <button id="HS" onclick="fixerupS()">
+      <script>
+      
+      function fixerupS(){
+      sessionStorage.clear()
+      sessionStorage.setItem("symb", "HS");
+      newPopup('podium.html')
+      sessionStorage.clear()
+      
+
+    }
+      </script>
+         <img alt="" src="Hindus.png" 
+        style="height: auto; width: 5vw" />
+
+    </button>
+    
   </body>
 </html>

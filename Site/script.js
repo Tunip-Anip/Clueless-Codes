@@ -109,6 +109,10 @@ function changeSymbol(symbolc) {
         document.getElementById("Area").innerHTML = Hindu_Swastika.OriginPlace;
         document.getElementById("Group").innerHTML = Hindu_Swastika.ReligousGroup;
     }
+    setTimeout(kill, 450)
 }
 
-    
+function kill(){
+    sessionStorage.clear()
+}
+
