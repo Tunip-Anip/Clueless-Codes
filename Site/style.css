@@ -105,23 +105,33 @@ body {
   background-color: transparent; 
   border-color: transparent;
   color:transparent;
-  translate: 386% 500% ;
+  translate: 386% 200% ;
+  position: absolute;
 }
 
 #HS{
-  translate: 339% 654% ;
+  
+  left: 20.4vw;
+  top: 33.9vw;
 }
 
 #GR{
-  translate: 348% 660% ;
+  
+  left: 13.2vw;
+  top: 34.4vw;
 }
 
 #Fib{
-  translate: 352% 650% ;
+  
+  left: 5.5vw;
+  top: 33.6vw;
 }
 
 #Pent{
-  translate:361% 659% ;
+  
+  left: -2vw;
+  top: 34.1vw;
+  
 }
 .subt{
   position: absolute;
@@ -133,3 +143,13 @@ body {
   font-weight: thin;
 }
 
+.Task{
+  position: absolute;
+    background-color: transparent; 
+  border-color: transparent;
+  color:transparent;
+  left: 77.9vw;
+  top: 42.8vw;
+  
+  margin: 0;
+}
