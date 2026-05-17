@@ -371,7 +371,7 @@ I need to fix the info swapper as a global variable doesnt change when recalled 
 
 
 ### Week 3
-In this week I added the text for the fibonacci sequence. I also got help from Siddhant Bhale to help make the podium features change when the tab opens. I got the base swapping things out part pretty quickly but knowing things it needs to swap into was very tricky, I tried to create a variable i nthe newpopup function to carry through to the changesymbol function but since it's a new page it wouldnt carry through.
+In this week I added the text for the fibonacci sequence. I also got help from Siddhant Bhale to help make the podium features change when the tab opens. I got the base swapping things out part pretty quickly but knowing things it needs to swap into was very tricky, I tried to create a variable in the newpopup function to carry through to the changesymbol function but since it's a new page it wouldnt carry through.
 
 ### HTML on gamescreen.html
 ```
@@ -417,5 +417,110 @@ This is added content not the actual page
 I need to fix the info swapper as a global variable doesnt change when recalled in a functaion. This means that |if symbolc==''| was meant to say |if symbolc=='Pentacle'| but since the global variable was declared as empty in the start of the script it doesnt change when I call newpop(url,symbol): symbolc = symbol. AFTER MUCH HELP FROM SIDD It was discovered that I was missing a "return symbolc" which is actually outputted the updated variable.But actually it turns out the using symbolc was very innefficient so just using session storage worked with helping my store the variables: The script was done in the html for increased visibility.
 
 Now a new bug has arised, whenever clicking on each button the button redirects to whatever the furthest down button is, i suspect it is due to the furthest down button having its "script" allways running somehow, even after I add a onclick event but it still needs to be fixed.
+
 ---
+
+
+It actually turns out Sidd didn't help much but his contribution was much needed to let me gey back on track. Also deleted the symbolc code and replaced it with a localstorage which was much easier to implement
+
+### Single Button Example
+### HTML
+```
+    <button class="inv" id="Pent" onclick="fixerupP()" >
+      <script>
+        
+      function fixerupP(){
+      sessionStorage.clear("symb")
+      sessionStorage.setItem("symb", "Pentacle")
+      newPopup('podium.html');
+      sessionStorage.clear("symb")
+
+      }
+      </script>
+         <img alt="" src="Pentacle.png" 
+        style="height: auto; width: 7vw" />
+    </button>
+```
+
+### JS
+```
+function changeSymbol(symbolc){
+    console.log(symbolc)
+    if(symbolc=='Pentacle'){
+        document.getElementById("changesymbol").src = Pentacle.image;
+        document.getElementById("Info").innerHTML = Pentacle.info;
+        document.getElementById("Ttl").innerHTML = Pentacle.Name;
+        document.getElementById("Date").innerHTML = Pentacle.OriginDate;
+        document.getElementById("Area").innerHTML = Pentacle.OriginPlace;
+        document.getElementById("Group").innerHTML = Pentacle.ReligousGroup;
+    }
+}
+```
+---
+
+### Week 3 Weekend + Week 4
+This week I fixed major bugs and added two main aspects of the game, the switch screen button and the quiz page where the main puzzles are contained as well as the information screen bug from feedback from william - He saw that each onclick was triggering the same function so when each button is clicked the last function triggers. This week was also the tasmania trip where not much work was done but for the busy schedule I beleive enough work was done. I also fixed minor bugs with positioning but I feel that the dynamic aspect ratio in the nonfunctional requirments would be hard/near to impossible to implement with the sheer amount of size and positioning that had to be done.
+### HTML on quiz.html
+```
+<style>
+body {
+    background-image: url("ExpandedMenuTask.png");
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    
+}
+</style>
+
+<h1 class="Crypt" onclick="test()">Oh Draconian Devil, a quarter dozen feet for my step.</h1>
+
+<form>
+  <input type="text" id="answer"
+  name="answer"
+  value="What does this mean?"> 
+
+</form>
+
+```
+This is added content not the actual page
+#### HTML on gs2.html + gamescreen.html
+
+```
+    
+    <button class="arrowb" onclick="fixA()">
+    <script>
+      function fixA(){
+        document.location.href = pages[0];
+      }
+    </script> 
+    <img alt="" src="Arrow.png" 
+    style="height: auto; width: 7vw" /> 
+    </button>
+```
+
+Now all thats needed is to fix up the text input for the quiz screen(Make it recognise correct and incorrect asnwers) aswell as making backgrounds and interactable elements to give hints for the quiz. Otherwise from this the program is mostly usable. It will need some refining with scroll bars and other issues with the window.
+Another page could be added where the person can write down notes that they learnt from each hint to figure out what the quiz/riddle is asking of them. Also may force them to actually read the text.
+
+---
+
+
+
+# Quiz Answer Key if its too hard
+
+"Oh Draconian Devil, only eight fibs can negate a single great act."
+
+Draconian is a foreign language, i.e an anagram indicator, if Devil is draconian it gets rearranged to lived, to have lived means you are dead now.
+
+
+* Dead
+
+"Only eight fibs can negate a single great act."    
+The eigth number in the FIB-onacci sequence is 13, 13 "negated a single" would be - 1: 13 - 1= 12, and a "great act" can be substituted with feat, pronounced "feet" so 12 feet would be a yard.
+
+* Yard
+
+Dead Yard can be another word for Graveyard - the location of the murderer's settlement.
+
 

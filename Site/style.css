@@ -153,3 +153,62 @@ body {
   
   margin: 0;
 }
+
+.Crypt{  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -280%);  
+  font-size: 60px;
+  font-family:customFont;
+  text-shadow: 3px 3px rgba(129, 69, 13, 0.344);
+  font-weight: bold;}
+
+
+#answer{  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 76.6%;
+  overflow-wrap: anywhere;
+  height: 44%;
+  resize:none;
+  text-overflow: inherit;
+  transform: translate(-43.6%, -17%);  
+  font-size: 40px;
+  font-family:customFont;
+  background: wheat;
+  border: transparent;
+  color: rgba(0, 0, 0, 0.489);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.344);
+  border-color: transparent;
+  font-weight: thin;}
+
+  .arrowd{
+  position: absolute;
+  top: 40%;
+  background-color: transparent;
+  border: transparent;
+  left: 0%;
+  }
+
+ .arrowb{
+  position: absolute;
+  top: 40%;
+  background-color: transparent;
+  border: transparent;
+  right: 15%;
+  scale: -100%
+  
+  
+  
+  }
+
+  .NoteP{
+  position: absolute;
+  background-color: transparent; 
+  border-color: transparent;
+  color:red;
+  left: 83vw;
+  top: 8.6vw;
+  
+  margin: 0;
+  }
