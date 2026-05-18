@@ -23,41 +23,77 @@
   />
 
 
-
+<div>
   <style>
-body {
-    background-image: url("Menu.png");
-    background-size: 1920px 1080px;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-color: black;
-    
-    
-}
+    body {
+      background-image: url("GS1.gif");
+      background-size: auto 1080px;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-color: black;
+    }
 </style>
+</div>
 
   <body>
-    <div class ="Menu" >
 
+
+      <style>
+
+        #Pent:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #Fib:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #GR:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #HS:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        .arrowd:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        .Task:hover{
+          transition-duration: 400ms;
+          transform: scale(1.01)
+        }
+        .NoteP:hover{
+          transition-duration: 400ms;
+          transform: scale(1.01)
+        }
+      </style>
+
+    <div class ="Menu" >
+      <img src="MenuInventory.png" alt="">
     </div>
 
     <button class="arrowd" onclick="fixA()">
     <script>
       function fixA(){
         document.location.href = pages[1];
+      console.log("hi")
+      document.body.style.backgroundImage= url("GS1togs2.gif");
       }
     </script> 
     <img alt="" src="Arrow.png" 
     style="height: auto; width: 7vw" /> 
     </button>
     
-    <div class="invent" onmouseover="interact()">
+    <div class="invent" >
 
+      
   
     </button>
-    <button class="inv" id="Pent" onclick="fixerupP()" >
+    <button class="inv" id="Pent" onclick="fixerupP()">
+      
       <script>
-        
       function fixerupP(){
       sessionStorage.clear("symb")
       sessionStorage.setItem("symb", "Pentacle")

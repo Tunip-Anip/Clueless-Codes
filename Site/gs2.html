@@ -26,19 +26,53 @@
 
   <style>
 body {
-    background-image: url("Menu.png");
+    background-image: url("gs2.gif");
     background-size: 1920px 1080px;
     margin: 0;
     background-repeat: no-repeat;
     background-color: black;
-    
+    overflow:hidden
+
     
 }
 </style>
 
+
+      <style>
+
+        #Pent:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #Fib:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #GR:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #HS:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        .arrowb:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        .Task:hover{
+          transition-duration: 400ms;
+          transform: scale(1.01)
+        }
+        .NoteP:hover{
+          transition-duration: 400ms;
+          transform: scale(1.01)
+        }
+      </style>
+
   <body>
     <div class ="Menu" >
-
+      <img src="MenuInventory.png" alt="">
     </div>
 
     
@@ -140,6 +174,25 @@ body {
 
     </button>
   
+    
+
+      
+    <button class="NoteP" onclick="TaskN()">
+
+      <script>
+      function TaskN(){
+      newPopup('Notes.html')
+      }
+      </script>
+      
+      <img alt="" src="MenuNote.png" 
+        style="height: auto; width: auto"/>
+
+    </button>
+  
+
+
+
 
     </div>
 

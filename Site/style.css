@@ -155,27 +155,27 @@ body {
 }
 
 .Crypt{  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-45%, -280%);  
-  font-size: 60px;
+  left: 30vw;
+  right: 16vw;
+  transform: translate(-1vw, 0vw);  
+  font-size: 5vw;
   font-family:customFont;
   text-shadow: 3px 3px rgba(129, 69, 13, 0.344);
   font-weight: bold;}
 
 
 #answer{  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 76.6%;
+  top: 24.3vw;
+  left: 16.7vw;
+  width: 76vw;
   overflow-wrap: anywhere;
   height: 44%;
   resize:none;
   text-overflow: inherit;
-  transform: translate(-43.6%, -17%);  
+
   font-size: 40px;
   font-family:customFont;
-  background: wheat;
+  background: transparent;
   border: transparent;
   color: rgba(0, 0, 0, 0.489);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.344);
@@ -211,4 +211,62 @@ body {
   top: 8.6vw;
   
   margin: 0;
+  }
+
+
+  .Note{
+
+  position: absolute;
+  width: 76.6%;
+  overflow-wrap: anywhere;
+  height: 50%;
+  resize:none;
+  text-overflow: inherit;
+  transform: translate(3vw, 7vw);  
+  font-size: 8vw;
+  font-family:customFont;
+  background: transparent;
+  border: transparent;
+  color: rgba(0, 0, 0, 0.489);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.344);
+  border-color: transparent;
+  font-weight: bold;
+
+  }
+
+  .tooltip{
+  position: absolute;
+  overflow-wrap: anywhere;
+  resize:none;
+  text-overflow: inherit;
+  transform: translate(12vw, 11vw);  
+  font-size: 40px;
+  font-family:customFont;
+  background: transparent;
+  border: transparent;
+  color: rgba(0, 0, 0, 0.489);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.344);
+  border-color: transparent;
+  font-weight: bold;
+  
+  }
+
+  .Nanswer{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  overflowwrap: anywhere;
+  height: 65%;
+  resize:none;
+  text-overflow: inherit;
+  transform: translate(-45vw, -9vw);  
+  font-size: 4vw;
+  font-family:customFont;
+  background: transparent;
+  border: transparent;
+  color: rgba(0, 0, 0, 0.489);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.344);
+  border-color: transparent;
+  font-weight: thin;
   }
