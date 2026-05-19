@@ -67,10 +67,17 @@ function newPopup(url) {
     popupWindow.resizeTo(1129,700)
 }   
 
+
+function newPopupP(url) {
+	popupWindowp = window.open(
+    url,'popUpWindowp','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+    popupWindowp.resizeTo(1129,700)
+}   
+
 function newPopupN(url) {
-	popupWindow = window.open(
-    url,'popUpWo','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
-    popupWindow.resizeTo(1129,700)
+	popupWindo = window.open(
+    url,'popUpWindo','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+    popupWindo.resizeTo(1129,700)
 }   
 
 

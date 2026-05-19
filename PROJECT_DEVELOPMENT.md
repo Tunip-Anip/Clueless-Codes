@@ -505,8 +505,81 @@ Another page could be added where the person can write down notes that they lear
 
 ---
 
+### Finale
+The finale week I added the finalised quiz html which could recognise your inputs as containing the correct answer and then using the red glowing button you could advance to the win page which isnt very extravagent. In this week many extra pages were made such as the transition pages which provided a smooth transition between the two rooms, the sticky note pages which provided hints, the Note page which let you write down notes as well as the Correctpage which you get redirected to when you win. I also added interactables so that the buttons look like you can press them aswell as making the pages stop scrolling since it was annoying. I also added the second page which is like the first page but with different placements of hints. For some reason github pages completley broke some aspects of the game such as resizing one of the hints and also removing the background for the podium.html, this is probably because github pages is still in development and also has so inconsistencies with porting. Was also given feedback on how to improve the system better, this involved keeping the Notes.html seperate so that when a different popup is opened it doesnt get overwritten.
+### HTML on gamescreen.html and gs2.html
+```
+#Pent:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #Fib:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #GR:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        #HS:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        .arrowb:hover{
+          transition-duration: 400ms;
+          transform: scale(1.2)
+        }
+        .Task:hover{
+          transition-duration: 400ms;
+          transform: scale(1.01)
+        }
+        .NoteP:hover{
+          transition-duration: 400ms;
+          transform: scale(1.01)
+        }
+      </style>
+
+  <body>
+    <div class ="Menu" >
+      <img src="MenuInventory.png" alt="">
+    </div>
+
+```
+This is added content not the actual page
+#### HTML on quiz.html
+```
+
+<style>
+  #shine2:hover{
+          transition-duration: 400ms;
+          filter: hue-rotate(100deg);
+        }
+</style>
+<h1 class="Crypt">Oh Draconian Devil, Only 5 fibs can count a great act.</h1>
+
+<textarea name="answer" id="answer">What does this mean?</textarea>
 
 
+    <button class="shine1" id="shine2" onclick="Shine()">
+      <img id="shineimg" alt="" src="red.png" 
+        style="height: auto; width: 13vw"/>
+    </button>
+
+```
+
+---
+
+The github pages being broken means that to get the intended access of the game without having to port it over, which would take a lot of effort and time which isnt within the boundries of the allocated time, you will need to use live server which is an extension in VSCode, just download the extension and right-click index.html for the starting and also make sure everything fits centred on the screen.
+
+
+
+# Final Evaluation
+## Functional & Non-Functional
+I believe that the program followed all the functional requirements which makes it a built - functional prototype/demo of a game, This has succeeded as I have implemented the symbol information on podium.html which provides the entire information for the 4 given symbols, ranging from date, meaning, original cultural heritage and locale. The expected behaviours of clicking each symbol to pop up it's own information box was also succesfully made with a clear and meaningful expression of the click. The preformance and usability is hindered through both Live server and github pages being slow on their own and github page's overall bugginess to begin with. all other features with reliability and security were followed through expertly with the local server deleting all data when the tab is closed as well as each window being hard coded which took time but reduced chances for errors when replaying.
+
+
+
+---
 # Quiz Answer Key if its too hard
 
 "Oh Draconian Devil, only eight fibs can negate a single great act."
