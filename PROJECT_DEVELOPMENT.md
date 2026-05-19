@@ -516,8 +516,8 @@ Draconian is a foreign language, i.e an anagram indicator, if Devil is draconian
 
 * Dead
 
-"Only eight fibs can negate a single great act."    
-The eigth number in the FIB-onacci sequence is 13, 13 "negated a single" would be - 1: 13 - 1= 12, and a "great act" can be substituted with feat, pronounced "feet" so 12 feet would be a yard.
+"Only 5 fibs can count a great act"    
+The fifth number in the FIB-onacci sequence is 3, 3 "great act" can be substituted with feat, pronounced "feet" so 3 feet would be a yard.
 
 * Yard
 

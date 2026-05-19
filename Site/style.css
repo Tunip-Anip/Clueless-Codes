@@ -156,8 +156,8 @@ body {
 
 .Crypt{  position: absolute;
   left: 30vw;
-  right: 16vw;
-  transform: translate(-1vw, 0vw);  
+  right: 24vw;
+  transform: translate(-1vw, 1vw);  
   font-size: 5vw;
   font-family:customFont;
   text-shadow: 3px 3px rgba(129, 69, 13, 0.344);
@@ -173,7 +173,7 @@ body {
   resize:none;
   text-overflow: inherit;
 
-  font-size: 40px;
+  font-size: 200px;
   font-family:customFont;
   background: transparent;
   border: transparent;
@@ -269,4 +269,61 @@ body {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.344);
   border-color: transparent;
   font-weight: thin;
+  }
+
+  .sticky1{
+    position: absolute;
+    top: 60%;
+    background-color: transparent;
+    border: transparent;
+    right: 15%;
+  }
+   .sticky2{
+    position: absolute;
+    top: 7%;
+    background-color: transparent;
+    border: transparent;
+    left: 10%;
+  }
+
+  .book{
+    position: absolute;
+    top: 19.6%;
+    transform:translate(3vw, 0vw);
+    background-color: transparent;
+    border: transparent;
+    left: 10%;
+  }
+
+  .shine1{
+  position: absolute;
+  background-color: transparent; 
+  border-color: transparent;
+  color:transparent;
+  left: 83.7vw;
+  top: 3.5vw;
+  margin: 0;
+  }
+
+  #CORRECT{
+    top: -8vw;
+    font-size: 14vw;
+  }
+
+  .ans{
+    resize: none;
+    overflow: hidden;
+    transform: translate(25vw,30vw);
+    font-size: 5vw;
+    font-family:customFont;
+    background: transparent;
+    border: transparent;
+    color: rgba(0, 0, 0, 0.489);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    border-color: transparent;
+    font-weight: thin;
+  }
+
+  body{
+        overflow: hidden;
   }

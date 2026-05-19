@@ -1,4 +1,5 @@
-var pages = ["gamescreen.html","gs2.html",]
+var pages = ["gamescreen.html","transition1.html","gs2.html","transition2.html"]
+var subpage = ["Correct.html"]
 var symbols = ["Pentacle","Fib","Golden_Ratio","Hindu_Swastika"]
 
 const Pentacle = {
@@ -61,16 +62,15 @@ function stopgif(){
 }
 
 function newPopup(url) {
-    
-    
-    
 	popupWindow = window.open(
     url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
     popupWindow.resizeTo(1129,700)
+}   
 
-    
-    
-    
+function newPopupN(url) {
+	popupWindow = window.open(
+    url,'popUpWo','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+    popupWindow.resizeTo(1129,700)
 }   
 
 
@@ -113,19 +113,28 @@ function changeSymbol(symbolc) {
 }
 
 function kill(){
-    sessionStorage.clear("symb")
+    sessionStorage.clear("symb");
 }
 
-function store(){
-    quizA = getElementById("answer").value;
-    sessionStorage.setItem("quiz", "quizA")
-    alert(quizA)
-
-}
-
-function test(){
-    f=sessionStorage.getItem("quiz")
-    alert(f)
-
-
+function Shine(){
+    let i=0;
+    correct = document.getElementById('answer').value
+    let includes = correct.includes("grave")
+    let includes2 =correct.includes("yard")
+    let includes3 = correct.includes("Grave")
+    let includes4 =correct.includes("Yard")
+    
+    if(includes == true){
+        i=1;
+    }
+    if(includes2 == true){
+        i= i+1;
+    }
+    if(includes3 == true){
+        i=1;
+    }
+    if(includes4 == true){
+        i= i+1;
+    }
+    if(i>1){document.location.href = subpage[0];}
 }
