@@ -1,4 +1,4 @@
-var pages = ["gamescreen.html","transition1.html","gs2.html","transition2.html"]
+var pages = ["gamescreen.html","transition1.html","gs2.html","transition2.html","checksize.html"]
 var subpage = ["Correct.html"]
 var symbols = ["Pentacle","Fib","Golden_Ratio","Hindu_Swastika"]
 
@@ -39,7 +39,7 @@ const Hindu_Swastika = {
 };
 
 function next(){
-      document.location.href = pages[0];
+        document.location.href = pages[4];
     }
 
 function changeImage() {
@@ -127,9 +127,11 @@ function Shine(){
     let i=0;
     correct = document.getElementById('answer').value
     let includes = correct.includes("grave")
-    let includes2 =correct.includes("yard")
+    let includes2 = correct.includes("yard")
     let includes3 = correct.includes("Grave")
-    let includes4 =correct.includes("Yard")
+    let includes4 = correct.includes("Yard")
+    let includes5 = correct.includes("GRAVE")
+    let includes6 = correct.includes("YARD")
     
     if(includes == true){
         i=1;
@@ -138,10 +140,17 @@ function Shine(){
         i= i+1;
     }
     if(includes3 == true){
-        i=1;
+        i= i+1;
     }
     if(includes4 == true){
         i= i+1;
     }
+    if(includes5 == true){
+        i= i+1;
+    }
+    if(includes6 == true){
+        i= i+1;
+    }
+
     if(i>1){document.location.href = subpage[0];}
 }

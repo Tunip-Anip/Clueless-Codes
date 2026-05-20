@@ -171,9 +171,10 @@ body {
   overflow-wrap: anywhere;
   height: 44%;
   resize:none;
+  text-align: center;
   text-overflow: inherit;
 
-  font-size: 200px;
+  font-size: 10vw;
   font-family:customFont;
   background: transparent;
   border: transparent;
@@ -300,7 +301,7 @@ body {
   background-color: transparent; 
   border-color: transparent;
   color:transparent;
-  left: 83.7vw;
+  left: 83.5vw;
   top: 3.5vw;
   margin: 0;
   }
@@ -326,4 +327,25 @@ body {
 
   body{
         overflow: hidden;
+  }
+
+  .check{
+    position: absolute;
+    text-align: center;
+    top: 50vw;
+    left: 50vw;
+    transform: translate(-50%, -30vw);
+    font-size: 3vw;
+    font-family:customFont;
+    font-weight: thin;
+  }
+
+  .checks{
+    position: absolute;
+    background-color: transparent; 
+    border-color: transparent;
+    color:transparent;
+    left: 45vw;
+    top: 30vw;
+    margin: 0;
   }
