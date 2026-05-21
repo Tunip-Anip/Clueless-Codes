@@ -570,9 +570,11 @@ This is added content not the actual page
 ---
 
 The github pages being broken means that to get the intended access of the game without having to port it over, which would take a lot of effort and time which isnt within the boundries of the allocated time, you will need to use live server which is an extension in VSCode, just download the extension and right-click index.html for the starting and also make sure everything fits centred on the screen. Alternitively you could also open in the file in the file explorer but this hasn't been fully tested yet.
+---
+### Final Day
+I updated the transition screen by making it hold the final frame longer so the loop back wouldnt bee seen
 
-
-
+---
 # Final Evaluation
 ## Functional & Non-Functional
 I believe that the program followed all the functional requirements which makes it a built - functional prototype/demo of a game, This has succeeded as I have implemented the symbol information on podium.html which provides the entire information for the 4 given symbols, ranging from date, meaning, original cultural heritage and locale. The expected behaviours of clicking each symbol to pop up it's own information box was also succesfully made with a clear and meaningful expression of the click. The preformance and usability is hindered through both Live server and github pages being slow on their own and github page's overall bugginess to begin with. all other features with reliability and security were followed through expertly with the local server deleting all data when the tab is closed as well as each window being hard coded which took time but reduced chances for errors when replaying.
