@@ -7,6 +7,14 @@
 
 
 
+
+
+
+
+
+
+
+
 # Project Proposal
 <h2>Design Brief</h2>
 The book I have chosen to express as a type of user experience is called "The Da Vinci Code" In the format of a website. The target audience will be people interested in cryptology and symbols as well as people who would want a fun experience with a website.
@@ -18,8 +26,24 @@ The book I have chosen to express as a type of user experience is called "The Da
 
 
 
+
+
+
+
+
+
+
+
 <h2>Book Choice & Justification</h2>
 The Da Vinci code was written by Dan Brown and is about Robert Langon who is a University professor following clues that lead to a powerful symbol relating to Jesus Christ. He starts his journey with the death of the Louvre's host Jacques Saunière as he follows murders with an aspiring cryptologist Sophie Neveu. I chose this book as I am very interested in political and religious symbols, I am not very religious but the meanings and historical significance and change they endure and pursue inspire me. The Da Vinci codes Cryptic inclusion as well as well written story telling provides suspense in a way that would be well formatted as a website and something I can enjoy.
+
+
+
+
+
+
+
+
 
 
 
@@ -44,6 +68,14 @@ I will state that the target market and audience of this program will be people 
 
 
 
+
+
+
+
+
+
+
+
  <h2>Initial Brainstorming</h2>
 
 
@@ -53,7 +85,23 @@ I will state that the target market and audience of this program will be people 
 
 
 
+
+
+
+
+
+
+
+
 <img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/Mindmap.png?raw=true" alt="MindMap">
+
+
+
+
+
+
+
+
 
 
 
@@ -74,7 +122,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 <h3>Use Cases</h3>
+
+
+
+
+
+
+
+
 
 
 
@@ -92,7 +156,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * b. Users can click symbols or items to learn their backstory or give information to provide an answer for a riddle of passage.
+
+
+
+
+
+
+
+
 
 
 
@@ -110,7 +190,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * d. If players input the wrong answer on a cryptic too many times the cryptic becomes way easier.
+
+
+
+
+
+
+
+
 
 
 
@@ -129,7 +225,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 <h3>Test Cases(Planned)</h3>
+
+
+
+
+
+
+
+
 
 
 
@@ -147,7 +259,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * b. Peer test, lets them access the program and see whether the ui would actually lead them to hover over and click symbols, and check if the symbols when clicked takes them to the correct screen.
+
+
+
+
+
+
+
+
 
 
 
@@ -165,13 +293,33 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * d. Peer testing, let the peer solve a cryptic with no background information and observe if the program switches the question to make it easier, this would also need a transition as the text changing on the screen would be too sudden and noticeable, something like "I should check on this later" would be a smooth transition.
+
+
+
+
 
 
 
 
     > There will be both peer and self testing, letting someone else play the program and see if they can find any errors or bugs to clear out. Self testing will help get rid of surface level errors as the community is better at finding glitches and bugs than the developer.
 >
+
+
+
+
+
+
+
+
 
 
 
@@ -190,7 +338,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * Since the program is on the web browser and it is known that browsers usually have varying performance a smooth and stable program isn't guaranteed but I will use the uppermost of my ability to create optimised functions with the tools at hand: HTML, CSS and JavaScript. With this it will be important that the changing of scenes and objects should be as quick as possible happening within a few milliseconds or less, as well as clicks registering quickly and expressing if an object has been clicked to help indicate if an action is done. Some examples of failed approaches are the desktops icons, not giving a clear indication when clicked causing many tabs to open with repeated clicking.
+
+
+
+
+
+
+
+
 
 
 
@@ -208,7 +372,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * Usability will be promoted with an options menu allowing for the size of text to increase and change as well as using accessible colours to help prevent colourblindness segregation. There might also be a custom font made for readability while also fitting in with the plot of the program allowing users of any ability to both access and effortlessly use the program.
+
+
+
+
+
+
+
+
 
 
 
@@ -226,7 +406,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * The website will be bug free with the numerous amounts of testing, but I can't promise a port eligible for mobile cooperation as the differences in the screen sizes are too great to accommodate. The program will be tested across many screen sizes with the most common screens being clearly accounted for; those being 1920*1080 and the rest being scaled versions of the standard HD format. This will help with both reliability and usability where most people have a laptop for either school or work.
+
+
+
+
+
+
+
+
 
 
 
@@ -244,6 +440,14 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * The website will be 100% open source, increasing transparency, with it being a personal project there will be no ads for monetisation, creating trust and safety with the website. The website will also not be coded to mine data because I don't have the ability to code data mining software and even if I did it would still not make its way into the website. The website will also not require a log in as there isn't any data being saved, this may pose a concern as progress is quickly lost but the game wouldn't be that long to create a viable concern for progress containment.
 
 
@@ -253,7 +457,23 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 # Social, Ethical and Legal Issues
+
+
+
+
+
+
+
+
 
 
 
@@ -272,8 +492,24 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * The program is created for everyone but has deeper and darker themes so an older audience is recommended. The program also has a lot of religious imagery which may offend some groups of people with the history behind symbols. As mentioned before the program will have accessibility functions such as changeable text size and accessible colours to accommodate people with visual imparities, audio will not be a main focus for people with auditory imparities.
 <h3> Potential Benefits</h3>
+
+
+
+
+
+
+
+
 
 
 
@@ -292,7 +528,31 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
 * With the containment of several religious symbols it addresses a large problem that will affect many heavily religious groups which have specific feelings to these symbols, as explained in the book, the pentacles' meaning was shifted from the profound divinity of femininity to acts of paganism. Where Christian groups may take offence with this meaning and they could feel conflicted with the historical aspects of religion. From this it may misrepresent certain religion and cultural groups causing discourse between the program and these groups. This could be solved by adding a disclaimer, allowing for these groups to create their own thoughts by exclaiming how the information obtained for the program is not based on opinions and is backed by factual sources which will be listed in the background information on the symbols.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -326,7 +586,39 @@ The app will inform the user of many common or rare symbol's true meanings and h
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h3> User Data & Privacy</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -352,7 +644,23 @@ The program will not collect data so the leaking of data and the use of data wil
 
 
 
+
+
+
+
+
+
+
+
 <h3>Representation & Inclusion</h3>
+
+
+
+
+
+
+
+
 
 
 
@@ -370,6 +678,14 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 
 
+
+
+
+
+
+
+
+
 <h3> Content Sensitivity</h3>
 
 
@@ -379,7 +695,23 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 
 
+
+
+
+
+
+
+
+
 * As mentioned in the Potential Risks there will be discourse within given information about religious symbolism and the actual expression of feelings from those groups causing controversy, as previously mentioned ways to combat this would be to list sources of information to create a more informative setting while also allowing the offended groups to access where the information was obtained. This would help to create less controversy within the program by citing sources and allowing for further informative learning.
+
+
+
+
+
+
+
+
 
 
 
@@ -413,7 +745,39 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h3> Copyright & Intellectual Property</h3>
+
+
+
+
+
+
+
+
 
 
 
@@ -431,7 +795,23 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 
 
+
+
+
+
+
+
+
+
 <h3>Terms of Use</h3>
+
+
+
+
+
+
+
+
 
 
 
@@ -445,8 +825,16 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 
 
+
+
+
+
 * MIT license provides restrictions on reuse further protecting copyrighted content.
 ---
+
+
+
+
 
 
 
@@ -456,11 +844,21 @@ Since there is a risk of copyrighted content the characters from the book and th
 
 
 
+
+
+
+
 ## Gantt Chart
 <img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/Gantt%20Chart.png" alt="Gantt Chart">
 
 
+
+
 ## PMI Tables
+
+
+
+
 
 
 
@@ -472,11 +870,17 @@ Since there is a risk of copyrighted content the characters from the book and th
 <img src="https://github.com/Tunip-Anip/Clueless-Codes/blob/main/Images/PMI_Software.png" alt="PMI SOFTWARE">
 
 
+
+
 ## Wireframe Feedback
+
+
 
 
 ### Access Wireframe feedback + Wireframes
 https://docs.google.com/document/d/14vpGy_n6LEnB5ww9zXUxfQX5K9pMuNQsDvNFXerugMo/edit?usp=sharing
+
+
 
 
 ---
@@ -486,7 +890,11 @@ In these weeks I created the html and css file as well as the javascript file. N
 #### HTML
 
 
+
+
 ```
+
+
 
 
     <meta charset="utf-8" />
@@ -496,11 +904,19 @@ In these weeks I created the html and css file as well as the javascript file. N
 
 
 
+
+
+
+
     <title>Clueless Codes</title>
+
+
 
 
     <!-- The website stylesheet -->
     <link rel="stylesheet" href="style.css" />
+
+
 
 
     <!-- The website JavaScript file -->
@@ -519,7 +935,11 @@ In these weeks I created the html and css file as well as the javascript file. N
 ```
 
 
+
+
 #### JS
+
+
 
 
 ```
@@ -528,20 +948,30 @@ function changeImage() {
         document.getElementById("Codex-btn").src = "Codex.gif";
 
 
+
+
     }
 }
 ```
+
+
 
 
 So far I need to get the image in the centre and fix the button aspect of it. But the aesthetics are pleasing and are good so far.
 ---
 
 
+
+
 ### Week 1 + 2 AKA sprint 2
 In these weeks it was the final rehearsals of the Beauty and the Beast Musical so not much work was done through these weeks. Some of the actual work done would be fixing the image/information switcher on podium.html and also making the sprites for the rest of the symbols. Also the Title screen was fixed as well as adding a new page mechanic. I also added the descriptors for the symbols.
 
 
+
+
 ```
+
+
 
 
     <<body onload="changeSymbol()">
@@ -555,9 +985,13 @@ In these weeks it was the final rehearsals of the Beauty and the Beast Musical s
   </body>
 
 
+
+
 ```
 This is added content not the actual page
 #### JS
+
+
 
 
 ```
@@ -569,6 +1003,8 @@ function newPopup(url,symbol) {
     url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
     popupWindow.resizeTo(1129,700)
 }  
+
+
 
 
 function changeSymbol() {
@@ -585,8 +1021,14 @@ function changeSymbol() {
 ```
 
 
+
+
 I need to fix the info swapper as a global variable does not change when recalled in a function. This means that |if symbolc==''| was meant to say |if symbolc=='Pentacle'| but since the global variable was declared as empty in the start of the script it doesn't change when I call newpop(url,symbol): symbolc = symboll.
 ---
+
+
+
+
 
 
 
@@ -595,8 +1037,12 @@ I need to fix the info swapper as a global variable does not change when recalle
 This week I added the text for the fibonacci sequence. I also got help from Siddhant Bhale to help make the podium features change when the tab opens. I got the base swapping things out pretty quickly but knowing things it needs to swap into was very tricky. I tried to create a variable in the newpopup function to carry through to the changesymbol function but since it's a new page it wouldn't carry through.
 
 
+
+
 ### HTML on gamescreen.html
 ```
+
+
 
 
     </button>
@@ -608,6 +1054,8 @@ This week I added the text for the fibonacci sequence. I also got help from Sidd
       </script>
          <img alt="" src="Pentacle.png"
         style="height: auto; width: 30vw" />
+
+
 
 
    
@@ -622,9 +1070,13 @@ This week I added the text for the fibonacci sequence. I also got help from Sidd
         style="height: auto; width: 30vw" />
 
 
+
+
 ```
 This is added content not the actual page
 #### HTML on Podium.html
+
+
 
 
 ```
@@ -641,10 +1093,16 @@ This is added content not the actual page
 ```
 
 
+
+
 I need to fix the info swapper as a global variable does not change when recalled in a function. This means that |if symbolc==''| was meant to say |if symbolc=='Pentacle'| but since the global variable was declared as empty in the start of the script it doesn't change when I call newpop(url,symbol): symbolc = symbol. AFTER MUCH HELP FROM SIDD It was discovered that I was missing a "return symbol" which is actually outputted the updated variable.But actually it turns out the using symbol was very inefficient so just using session storage worked with helping my store the variables: The script was done in the html for increased visibility.
 
 
+
+
 Now a new bug has arised, whenever clicking on each button the button redirects to whatever the furthest down button is, i suspect it is due to the furthest down button having its "script" always running somehow, even after I add a onclick event but it still needs to be fixed.
+
+
 
 
 ---
@@ -652,7 +1110,13 @@ Now a new bug has arised, whenever clicking on each button the button redirects 
 
 
 
+
+
+
+
 It actually turns out Sidd didn't help much but his contribution was much needed to let me get back on track. Also deleted the symbolic code and replaced it with a local storage which was much easier to implement
+
+
 
 
 ### Single Button Example
@@ -668,12 +1132,16 @@ It actually turns out Sidd didn't help much but his contribution was much needed
       sessionStorage.clear("symb")
 
 
+
+
       }
       </script>
          <img alt="" src="Pentacle.png"
         style="height: auto; width: 7vw" />
     </button>
 ```
+
+
 
 
 ### JS
@@ -693,6 +1161,8 @@ function changeSymbol(symbolc){
 ---
 
 
+
+
 ### Week 3 Weekend + Week 4
 This week I fixed major bugs and added two main aspects of the game, the switch screen button and the quiz page where the main puzzles are contained as well as the information screen bug from feedback from william - He saw that each onclick was triggering the same function so when each button is clicked the last function triggers. This week was also the tasmania trip where not much work was done but for the busy schedule I believe enough work was done. I also fixed minor bugs with positioning but I feel that the dynamic aspect ratio in the nonfunctional requirements would be hard/near to impossible to implement with the sheer amount of size and positioning that had to be done.
 ### HTML on quiz.html
@@ -710,7 +1180,11 @@ body {
 </style>
 
 
+
+
 <h1 class="Crypt" onclick="test()">Oh Draconian Devil, a quarter dozen feet for my step.</h1>
+
+
 
 
 <form>
@@ -719,12 +1193,18 @@ body {
   value="What does this mean?">
 
 
+
+
 </form>
+
+
 
 
 ```
 This is added content not the actual page
 #### HTML on gs2.html + gamescreen.html
+
+
 
 
 ```
@@ -741,11 +1221,17 @@ This is added content not the actual page
 ```
 
 
+
+
 Now all that's needed is to fix up the text input for the quiz screen(Make it recognise correct and incorrect answers) as well as making backgrounds and interactable elements to give hints for the quiz. Otherwise from this the program is mostly usable. It will need some refining with scroll bars and other issues with the window.
 Another page could be added where the person can write down notes that they learnt from each hint to figure out what the quiz/riddle is asking of them. Also may force them to actually read the text.
 
 
+
+
 ---
+
+
 
 
 ### Finale
@@ -783,16 +1269,22 @@ The final week I added the finalised quiz html which could recognise your inputs
       </style>
 
 
+
+
   <body>
     <div class ="Menu" >
       <img src="MenuInventory.png" alt="">
     </div>
 
 
+
+
 ```
 This is added content not the actual page
 #### HTML on quiz.html
 ```
+
+
 
 
 <style>
@@ -804,7 +1296,13 @@ This is added content not the actual page
 <h1 class="Crypt">Oh Draconian Devil, Only 5 fibs can count a great act.</h1>
 
 
+
+
 <textarea name="answer" id="answer">What does this mean?</textarea>
+
+
+
+
 
 
 
@@ -815,10 +1313,16 @@ This is added content not the actual page
     </button>
 
 
+
+
 ```
 
 
+
+
 ---
+
+
 
 
 The github pages being broken means that to get the intended access of the game without having to port it over, which would take a lot of effort and time which is not within the boundaries of the allocated time, you will need to use live server which is an extension in VSCode, just download the extension and right-click index.html for the starting and also make sure everything fits centred on the screen. Alternatively you could also open in the file in the file explorer but this hasn't been fully tested yet. This Tyler also mentioned that the note page would get overwritten which I tried to fix in a previous week but somehow due to maybe a misclick it broke again so I just had to rename a function to fix it. This helped the notes to actually take note of the information on other pages which was a key requirement for the game.
@@ -827,13 +1331,20 @@ The github pages being broken means that to get the intended access of the game 
 I updated the transition screen by making it hold the final frame longer so the loop back wouldn't bee seen
 
 
+
+
 ---
 # Final Evaluation
 ## Functional & Non-Functional
-I believe that the program followed all the functional requirements which makes it a built - functional prototype/demo of a game, This has succeeded as I have implemented the symbol information on podium.html which provides the entire information for the 4 given symbols, ranging from date, meaning, original cultural heritage and locale. The expected behavior of clicking each symbol to pop up its own information box was also successfully made with a clear and meaningful expression of the click. The performance and usability is hindered through both Live server and github pages being slow on their own and github page's overall bugginess to begin with. All other features with reliability and security were followed through expertly with the local server deleting all data when the tab is closed as well as each window being hard coded which took time but reduced chances for errors when replaying. Following the use cases, the quiz menu allowed for the game to be furthered(Since it's not a full game the rest hasn't been made), this menu is really efficient and can detect any case of graveyard (Grave, Yard, grave, yard), and the browsers built in spell check to minimise any spelling errors when inputting the answer. The hints that were scattered around were pretty simple to implement as it was just a single new popup with an image for the background but the book hint was more hidden since it takes away from the reading aspect of the game. This is all well and good but the quiz becoming easier if you get it wrong too many times wassn't implemented because I struggled with detetcting the inputted text in the beggining so the implementation of this would've taken too much time. The first thing I did was make the Cryptex (I called it a codex by accident) which was used to make the front screen since it was the most vibrant idea in my head and it turned out very well, the animation is smooth and the information/colours were simplistic but still defined.
+I believe that the program followed all the functional requirements which makes it a built - functional prototype/demo of a game, This has succeeded as I have implemented the symbol information on podium.html which provides the entire information for the 4 given symbols, ranging from date, meaning, original cultural heritage and locale. The expected behavior of clicking each symbol to pop up its own information box was also successfully made with a clear and meaningful expression of the click. The performance and usability is hindered through both Live server and github pages being slow on their own and github page's overall bugginess to begin with. All other features with reliability and security were followed through expertly with the local server deleting all data when the tab is closed as well as each window being hard coded which took time but reduced chances for errors when replaying. Following the use cases, the quiz menu allowed for the game to be furthered(Since it's not a full game the rest hasn't been made), this menu is really efficient and can detect any case of graveyard (Grave, Yard, grave, yard), and the browsers built in spell check to minimise any spelling errors when inputting the answer. The hints that were scattered around were pretty simple to implement as it was just a single new popup with an image for the background but the book hint was more hidden since it takes away from the reading aspect of the game. This is all well and good but the quiz becomes easier if you get it wrong too many times. It wasn't implemented because I struggled with detecting the inputted text in the beginning so the implementation of this would've taken too much time. The first thing I did was make the Cryptex (I called it a codex by accident) which was used to make the front screen since it was the most vibrant idea in my head and it turned out very well, the animation is smooth and the information/colours were simplistic but still defined.
 
-With the non-functional requirements i beleive thew program is works pretty well but the transition between pages still feels choppy which would need preloading and other methods to make a smoother transition. With the implementation of the checksize.html the screen size aspect covers all usable large devices such as mostly every laptop screen but widescreen/ curved moniters may expirience some strecthing or gaps from the edges. The colours also are all visible, this was tested with the greyscale function which simulates colour blindness. I used this to account for the book hint which has a small symbol on it which makes it easier to find for people with visual imparities. The text-size modifier was not implemented due to time constraints so small screen users would need to look harder at text but the average text size feels large enough to see with both smaller screens or other types of visual imperities.Since the website doesnt store data for longterm access or with users information the risk of a data breach within it is very low. The program is also completely open source which allows people to access what is happening on every click and each page to make sure they won't ever get any of their information publicised.
+
+With the non-functional requirements I believe the program works pretty well but the transition between pages still feels choppy which would need preloading and other methods to make a smoother transition. With the implementation of the checksize.html the screen size aspect covers all usable large devices such as mostly every laptop screen but widescreen/ curved monitors may experience some stretching or gaps from the edges. The colours also are all visible, this was tested with the greyscale function which simulates colour blindness. I used this to account for the book hint which has a small symbol on it which makes it easier to find for people with visual imparities. The text-size modifier was not implemented due to time constraints so small screen users would need to look harder at text but the average text size feels large enough to see with both smaller screens or other types of visual impurities.Since the website doesn't store data for long-term access or with users information the risk of a data breach within it is very low. The program is also completely open source which allows people to access what is happening on every click and each page to make sure they won't ever get any of their information publicised.
 ## Design Brief
+
+
+
+
 
 
 
@@ -842,7 +1353,11 @@ With the non-functional requirements i beleive thew program is works pretty well
 # Quiz Answer Key if its too hard
 
 
+
+
 "Oh Draconian Devil, only eight fibs can negate a single great act."
+
+
 
 
 Draconian is a foreign language, i.e an anagram indicator, if Devil is draconian it gets rearranged to live, to have lived means you are dead now.
@@ -850,17 +1365,37 @@ Draconian is a foreign language, i.e an anagram indicator, if Devil is draconian
 
 
 
+
+
+
+
 * Dead
+
+
 
 
 "Only 5 fibs can count a great act"    
 The fifth number in the FIB-onacci sequence is 3, 3 "great act" can be substituted with feat, pronounced "feet" so 3 feet would be a yard.
 
 
+
+
 * Yard
 
 
+
+
 Dead Yard can be another word for Graveyard - the location of the murderer's settlement.
+
+
+
+
+
+
+
+
+
+
 
 
 
