@@ -569,7 +569,7 @@ This is added content not the actual page
 
 ---
 
-The github pages being broken means that to get the intended access of the game without having to port it over, which would take a lot of effort and time which isnt within the boundries of the allocated time, you will need to use live server which is an extension in VSCode, just download the extension and right-click index.html for the starting and also make sure everything fits centred on the screen.
+The github pages being broken means that to get the intended access of the game without having to port it over, which would take a lot of effort and time which isnt within the boundries of the allocated time, you will need to use live server which is an extension in VSCode, just download the extension and right-click index.html for the starting and also make sure everything fits centred on the screen. Alternitively you could also open in the file in the file explorer but this hasn't been fully tested yet.
 
 
 
