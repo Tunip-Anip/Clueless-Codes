@@ -135,10 +135,11 @@ body {
 }
 .subt{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  text-align: center;
+  top: 30vw;
+  left: 50vw;
   transform: translate(-50%, -350%);
-  font-size: 40px;
+  font-size: 2vw;
   font-family:customFont;
   font-weight: thin;
 }
@@ -348,4 +349,43 @@ body {
     left: 45vw;
     top: 30vw;
     margin: 0;
+  }
+
+  .terms{
+      position: absolute;
+  top: 30vw;
+  left: -1vw;
+  width: 20vw;
+  overflowwrap: anywhere;
+  height: 65%;
+  resize:none;
+  text-overflow: inherit;
+ 
+  font-size: 4vw;
+  font-family:customFont;
+  background: transparent;
+  border: transparent;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.344);
+  border-color: transparent;
+  font-weight: thin;
+  }
+
+  .terms:hover{
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+          transform: scale(1.2)
+  }
+
+  .Terms{
+
+ 
+  font-size: 3vw;
+  font-family:customFont;
+  background: transparent;
+  border: transparent;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.344);
+  border-color: transparent;
+  font-weight: thin;
   }
